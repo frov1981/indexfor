@@ -67,9 +67,6 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${jetty-maven-plugin.version}</version>
                 <configuration>
-                    <httpConnector>
-                        <port>9090</port>
-                    </httpConnector>
                     <webApp>
                         <contextPath>/indexfor</contextPath>
                     </webApp>
@@ -77,5 +74,5 @@
             </plugin>
         </plugins>
     </build>
-
+    
 </project>
